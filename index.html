@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieApp</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+  <!-- •••••••••••••••••••••  -->
+  <!-- Header -->
+  <!-- •••••••••••••••••••••  -->
+  <header>
+    <!-- •••••••••••••••••••••  -->
+    <!-- App-Titile -->
+    <!-- •••••••••••••••••••••  -->
+    <h1 class="app-title">Kids Movie</h1>
+    <img class="plusIcon" src="./images/plus.png" alt="" height="40" width="40">
+    <!-- App-Titile -->
+    <!-- •••••••••••••••••••••  -->
+    <!-- Add-Form -->
+    <!-- •••••••••••••••••••••  -->
+    <form class="form-container">
+      <img src="./images/close.png" alt="" class="close-form">
+      <label>MovieName:</label>
+      <input type="text" class="inputs movieTitle"  placeholder="Movie name.." >
+      <label>Year:</label>
+      <input type="text" class="inputs movieYear" placeholder="Year..">
+      <label class="lab">DirectorName:</label>
+      <input type="text" class="inputs movieDirector" placeholder="Director name..">
+      <label>BoxOffice:</label>
+      <input type="text" class="inputs movieBoxOffice" placeholder="Box office..">
+      <label>MinimalPoster:</label>
+      <input type="text" class="inputs movieImage" placeholder="Image link..">
+      <label>BackgroundImage:</label>
+      <input type="text" class="inputs movieBackgroundImage" placeholder="Image link..">
+      <div class="submitBtn">Submit</div>
+    </form>
+    <!-- Add-Form -->
+    <!-- •••••••••••••••••••••  -->
+    <!-- Background-Image -->
+    <!-- •••••••••••••••••••••  -->
+    <!-- <div class="background-image">
+
+    </div> -->
+    <!-- Background-Image -->
+    </header>
+    <!-- header -->
+    <!-- •••••••••••••••••••••  -->
+    <!-- section-1 -->
+    <!-- •••••••••••••••••••••  -->
+    <section>
+    <!-- •••••••••••••••••••••  -->
+    <!-- MovieDetails-hidden -->
+    <!-- •••••••••••••••••••••  -->
+    <div class="MovieDetails">
+      <h2></h2>
+      <h3></h3>
+      <h4></h4>
+      <h5></h5>
+      <h6></h6>
+      <a href="index.html"><img src="./images/home.png"  style="border:1px solid rgba(255, 255, 255, 0.5);"height="40" width="40"></a>
+    </div>
+    </section>
+    <!-- section-1 -->
+    <!-- •••••••••••••••••••••  -->
+    <!-- section-2 -->
+    <!-- •••••••••••••••••••••  -->
+    <section>
+    <!-- ••••••••••••••••••••••••••••••  -->
+    <!-- MovieDetails-hidden-MovieBanner -->
+    <!-- ••••••••••••••••••••••••••••••  -->
+    <div class="movie-banner-container">
+      <img src="" class="movie-banner">
+    </div>
+    <!-- MovieDetails-hidden-MovieBanner -->
+    </section>
+    <!-- section-2 -->
+    <!-- •••••••••••••••••••••  -->
+    <!-- Main -->
+    <!-- •••••••••••••••••••••  -->
+    <main>
+    <!-- ••••••••••••••••••••••••••••••  -->
+    <!-- movieList-container -->
+    <!-- ••••••••••••••••••••••••••••••  -->
+    <div class="movieList-container">
+      <div class="showMovie1">
+        <img src="http://cdn2-www.comingsoon.net/assets/uploads/gallery/the-lego-batman-movie/13735783_1211035558915337_1757619073098035960_o.jpg" class="dynamic-poster">
+        <img src="./images/remove.png" alt="" class="remove">
+        <p class="title">The Lego Batman Movie</p>
+        <small>2017</small>
+        <div class="Details-container">
+          <label  class="director">Director_Name:</label>
+          <span class="directorName">Chris McKay</span>
+          <label class="boxOffice">Box_office:</label>
+          <span class="boxRate">1.159 billion USD</span>
+          <img src="http://static.srcdn.com/wp-content/uploads/2016/12/lego-batman-movie-poster-characters.jpg" class="poster">
+        </div>
+      </div>
+      <!-- showMovie1 -->
+      <div class="showMovie2">
+        <img src="./images/rock.jpg" class="dynamic-poster">
+        <img src="./images/remove.png" alt="" class="remove1">
+        <p class="title">Rock Dog</p>
+        <small>2016</small>
+        <div class="Details-container">
+          <label class="director">Director_Name:</label>
+          <span class="directorName">Ash Brannon</span>
+          <label class="boxOffice">Box_office:</label>
+          <span class="boxRate">11.5 million USD</span>
+          <img src="./images/rockdog_lionsgate.jpg" class="poster">
+        </div>
+      </div>
+      <!-- showMovie2 -->
+      <div class="showMovie3">
+        <img src="./images/Zootopia.jpg" class="dynamic-poster">
+        <img src="./images/remove.png" alt="" class="remove2">
+        <p class="title">Zootopia</p>
+        <small>2016</small>
+        <div class="Details-container">
+          <label class="director">Director_Name:</label>
+          <span class="directorName">Byron Howard</span>
+          <label class="boxOffice">Box_office:</label>
+          <span class="boxRate"> 1.024 billion USD</span>
+          <img src="http://static.srcdn.com/wp-content/uploads/zoootpia-box-office-record.jpg" class="poster">
+        </div>
+      </div>
+      <!-- showMovie3 -->
+      <div class="showMovie4">
+        <img src="./images/minion.jpg" class="dynamic-poster">
+        <img src="./images/remove.png" alt="" class="remove3">
+        <p class="title">Minions</p>
+        <small>2015</small>
+        <div class="Details-container">
+          <label class="director">Director_Name:</label>
+          <span class="directorName">Pierre Coffin</span>
+          <label class="boxOffice">Box_office:</label>
+          <span class="boxRate">1.159 billion USD</span>
+          <img src="http://d3dfib2axrgjas.cloudfront.net/generated/images/minions-movie-2015-poster_large.jpg" class="poster">
+      </div>
+      </div>
+      <!-- showMovie4 -->
+      <div class="showMovie5">
+        <img src="./images/pets.jpg" class="dynamic-poster">
+        <img src="./images/remove.png" alt="" class="remove4">
+        <p class="title">The Secret Life of Pets</p>
+        <small>2016</small>
+        <div class="Details-container">
+          <label class="director">Director_Name:</label>
+          <span class="directorName">Chris Renaud</span>
+          <label class="boxOffice">Box_office:</label>
+          <span class="boxRate"> 875.5 million USD</span>
+          <img src="http://cdn1-www.comingsoon.net/assets/uploads/2016/01/petsposter.jpg" class="poster">
+      </div>
+      </div>
+      <!-- showMovie5 -->
+      <div class="showMovie6">
+        <img src="./images/Karate.jpg" class="dynamic-poster">
+        <img src="./images/remove.png" alt="" class="remove5">
+        <p class="title">The Karate Kid</p>
+        <small>1984</small>
+        <div class="Details-container">
+          <label class="director">DirectorName:</label>
+          <span class="directorName">Harald Zwart</span>
+          <label class="boxOffice">BoxOffice:</label>
+          <span class="boxRate">360 million USD</span>
+          <img src="http://i.onionstatic.com/avclub/5107/50/16x9/960.jpg" class="poster">
+      </div>
+      </div>
+      <!-- showMovie6 -->
+      <div class="showMovie7">
+        <img src="./images/dragon.jpg" class="dynamic-poster">
+        <img src="./images/remove.png" alt="" class="remove6">
+        <p class="title">How to Train Your Dragon</p>
+        <small>2010</small>
+        <div class="Details-container">
+          <label class="director">DirectorName:</label>
+          <span class="directorName">Dean DeBlois</span>
+          <label class="boxOffice">BoxOffice:</label>
+          <span class="boxRate">494.9 million USD</span>
+          <img src="http://www.designbolts.com/wp-content/uploads/2014/05/how-to-train-your-dragon-2-hd-wallpaper-1920x10801.jpg" class="poster">
+      </div>
+      </div>
+      <!-- showMovie7 -->
+      <div class="showMovie8">
+        <img src="./images/insideout-KA-1.jpg" class="dynamic-poster">
+        <img src="./images/remove.png" alt="" class="remove7">
+        <p class="title">Inside Out</p>
+        <small>2015</small>
+        <div class="Details-container">
+          <label class="director">DirectorName:</label>
+          <span class="directorName">Pete Docter</span>
+          <label class="boxOffice">BoxOffice:</label>
+          <span class="boxRate">857.6 million USD</span>
+          <img src="https://lumiere-a.akamaihd.net/v1/images/rich_insideout_footer_33eb9119.jpeg?region=0,0,1024,442" class="poster">
+        </div>
+      </div>
+      <!-- showMovie8 -->
+      <div class="showMovie9">
+        <img src="./images/The-Lion-King.jpg" class="dynamic-poster">
+        <img src="./images/remove.png" alt="" class="remove8">
+        <p class="title">The Lion King</p>
+        <small>1994</small>
+        <div class="Details-container">
+          <label class="director">DirectorName:</label>
+          <span class="directorName">Roger Allers</span>
+          <label class="boxOffice">BoxOffice:</label>
+          <span class="boxRate">968.5 million USD</span>
+          <img src="http://www.twitrcovers.com/wp-content/uploads/2014/02/The-Lion-King-l.jpg" class="poster">
+        </div>
+      </div>
+      <!-- showMovie9 -->
+      <div class="showMovie10">
+        <img src="./images/jungle.jpeg" class="dynamic-poster">
+        <img src="./images/remove.png" alt="" class="remove9">
+        <p class="title">The Jungle Book</p>
+        <small>2016</small>
+        <div class="Details-container">
+          <label class="director">DirectorName:</label>
+          <span class="directorName">Jon Favreau</span>
+          <label class="boxOffice">BoxOffice:</label>
+          <span class="boxRate">966.6 million USD</span>
+          <img src="http://cdn1-www.comingsoon.net/assets/uploads/gallery/the-jungle-book/junglebooktriptychgallery.jpg" class="poster">
+        </div>
+      </div>
+      <!-- showMovie10 -->
+      <div class="showMovie11">
+        <img src="./images/frozen.jpg" class="dynamic-poster">
+        <img src="./images/remove.png" alt="" class="remove10">
+        <p class="title">Frozen</p>
+        <small>2013</small>
+        <div class="Details-container">
+          <label class="director">DirectorName:</label>
+          <span class="directorName">Jennifer Lee</span>
+          <label class="boxOffice">BoxOffice:</label>
+          <span class="boxRate">1.276 billion USD</span>
+          <img src="http://target.scene7.com/is/image/Target/57626-160613_1465794713056?wid=1200&fmt=pjpeg&qlt=80" class="poster">
+      </div>
+      </div>
+      <!-- showMovie11 -->
+      <div class="showMovie12">
+        <img src="./images/The_Angry_Birds_Movie_poster.png" class="dynamic-poster">
+        <img src="./images/remove.png" alt="" class="remove11">
+        <p class="title">The Angry Birds Movie</p>
+        <small>2016</small>
+        <div class="Details-container">
+          <label class="director">DirectorName:</label>
+          <span class="directorName">Clay Kaytis</span>
+          <label class="boxOffice">BoxOffice:</label>
+          <span class="boxRate">349.8 million USD</span>
+          <img src="http://www.povestidinsertar.com/wp-content/uploads/2016/07/angry-birds-movie-poster.png" class="poster">
+        </div>
+      </div>
+      <!-- showMovie12 -->
+      <!-- movieList-container -->
+    </div>
+    </main>
+    <!-- main -->
+  </body>
+  <!-- jquery-links -->
+  <!-- •••••••••••••••••••••  -->
+  <!-- footer -->
+  <!-- •••••••••••••••••••••  -->
+  <footer>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  </footer>
+  <!-- footer -->
+</html>

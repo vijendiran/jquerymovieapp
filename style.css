@@ -1,0 +1,250 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+/*App-Titile*/
+.app-title{
+  background-color: black;
+  color:#ff751a;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  text-shadow:-2px 1px 1px white;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 35px;
+}
+.plusIcon{
+  float:right;
+  margin-top: -47px;
+  margin-right: 10px;
+  cursor: pointer;
+  position: relative;
+}
+/*Add-Form */
+.form-container{
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  background-color:black;
+  padding: 20px;
+  display: none;
+  border: 1px solid white;
+  margin: 0 auto;
+}
+*{
+  box-sizing: border-box;
+}
+/*input-fields*/
+.inputs{
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+}
+label{
+  font-size: 18px;
+  color: white;
+}
+/*submitButton*/
+.submitBtn{
+  padding: 10px;
+  width: 100%;
+  background-color:rgba(255, 117, 26, 0.82);
+  cursor: pointer;
+  -webkit-border-radius:5px;
+  border: none;
+  font-size: 15px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+.submitBtn:hover{
+  background-color:#ff8533;
+}
+.close-form{
+  float: right;
+  margin-top: -22px;
+  margin-right: -18px;
+}
+/*Background-Image */
+.background-image{
+  height: 600px;
+  width: 100%;
+  background-image: url('http://www.dreamworks.com/trolls/assets/content/characters/explore_landing_trolls.png');
+  background-position: center center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  display: table;
+}
+/*MovieDetails-hidden*/
+.MovieDetails{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  display: none;
+  background-color:black;
+  text-align: center;
+}
+/*MovieDetails-fonts-styles*/
+h2{
+  color:orange;
+  text-shadow: 1px 1px 5px black;
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+}
+h3{
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+  text-shadow:-1px 1px 5px black;
+  color: white;
+  font-size: 30px;
+}
+h4{
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  color: white;
+  text-shadow:-1px 1px 5px black;
+}
+h5{
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+  font-size: 30px;
+  color: white;
+  text-shadow:-1px 1px 5px black;
+}
+h6{
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 25px;
+  color: white;
+  text-shadow:-1px 1px 5px black;
+}
+/*Hidden-banner*/
+.movie-banner{
+  width: 100%;
+  height:auto;
+  display: none;
+}
+/*movieList-container*/
+.movieList-container{
+  width:100%;
+  height: auto;
+}
+/*PosterImage-list-showMovie*/
+.showMovie,.showMovie1,.showMovie2,.showMovie3,.showMovie4,.showMovie5,.showMovie6,.showMovie7,.showMovie8,.showMovie9,.showMovie10,.showMovie11,.showMovie12{
+  width:250px;
+  height:auto;
+  color:black;
+  float: left;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color:black;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.showMovie:hover,.showMovie1:hover,.showMovie2:hover,.showMovie3:hover,.showMovie4:hover,.showMovie5:hover,.showMovie6:hover,.showMovie7:hover,.showMovie8:hover,.showMovie9:hover,.showMovie10:hover,.showMovie11:hover,.showMovie12:hover{
+  background-color:#2196F3;
+}
+/*Hidden-Details-container*/
+.Details-container{
+  display: none;
+}
+/*title*/
+.title,small{
+  padding: 0;
+  margin: 5px;
+  color: white;
+}
+.dynamic-poster{
+  height: 350px;
+  width: 250px;
+  border-radius: 10px;
+}
+.remove,.remove1,.remove2,.remove3,.remove4,.remove5,.remove6,.remove7,.remove8,.remove9,.remove10,.remove11{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-top:-355px;
+  margin-left: 233px;
+  background-image: url('remove.png');
+  background-repeat: no-repeat;
+}
+/*max width 500*/
+@media only screen and (max-width: 500px) {
+  .movieList-container{
+    margin:10px 10px;
+    padding: 0;
+  }
+  .showMovie1,.showMovie2,.showMovie3,.showMovie4,.showMovie5,.showMovie6,.showMovie7,.showMovie8,.showMovie9,.showMovie10,.showMovie11,.showMovie12{
+    margin:10px 15px;
+    padding: 0;
+  }
+}
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+  .movieList-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .showMovie1,.showMovie2,.showMovie3,.showMovie4,.showMovie5,.showMovie6,.showMovie7,.showMovie8,.showMovie9,.showMovie10,.showMovie11,.showMovie12{
+    margin:10px 35px;
+    padding: 0;
+  }
+}
+/*Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+  .movieList-container{
+    margin:10px 48px;
+    padding: 0;
+  }
+  .showMovie1,.showMovie2,.showMovie3,.showMovie4,.showMovie5,.showMovie6,.showMovie7,.showMovie8,.showMovie9,.showMovie10,.showMovie11,.showMovie12{
+    margin:10px 40px;
+    padding: 0;
+  }
+}
+/*Computer*/
+@media only screen and (min-width: 980px) and (max-width: 1200px) {
+  .movieList-container{
+    margin:20px 50px;
+    padding: 0;
+  }
+  .showMovie1,.showMovie2,.showMovie3,.showMovie4,.showMovie5,.showMovie6,.showMovie7,.showMovie8,.showMovie9,.showMovie10,.showMovie11,.showMovie12{
+    margin:20px 30px;
+    padding: 0;
+  }
+}
+/*Large Screen*/
+@media only screen and (min-width: 1200px) {
+  .movieList-container{
+    margin:20px 50px;
+    padding: 0;
+  }
+  .showMovie1,.showMovie2,.showMovie3,.showMovie4,.showMovie5,.showMovie6,.showMovie7,.showMovie8,.showMovie9,.showMovie10,.showMovie11,.showMovie12{
+    margin:10px 15px;
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 1400px){
+  .movieList-container{
+    margin:20px 20px;
+    padding: 0;
+  }
+  .showMovie1,.showMovie2,.showMovie3,.showMovie4,.showMovie5,.showMovie6,.showMovie7,.showMovie8,.showMovie9,.showMovie10,.showMovie11,.showMovie12{
+    margin:10px 15px;
+    padding: 0;
+  }
+}
