@@ -174,11 +174,11 @@ h6{
 }
 .remove,.remove1,.remove2,.remove3,.remove4,.remove5,.remove6,.remove7,.remove8,.remove9,.remove10,.remove11{
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
   margin-top:-355px;
-  margin-left: 233px;
+  margin-left: 224px;
   background-image: url('remove.png');
   background-repeat: no-repeat;
 }
