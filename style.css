@@ -164,7 +164,7 @@ h6{
 /*title*/
 .title,small{
   padding: 0;
-  margin: 5px;
+  margin: 5px 10px;
   color: white;
 }
 .dynamic-poster{
