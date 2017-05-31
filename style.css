@@ -230,11 +230,11 @@ h6{
 /*Large Screen*/
 @media only screen and (min-width: 1200px) {
   .movieList-container{
-    margin:20px 50px;
+    margin:20px 20px;
     padding: 0;
   }
   .showMovie1,.showMovie2,.showMovie3,.showMovie4,.showMovie5,.showMovie6,.showMovie7,.showMovie8,.showMovie9,.showMovie10,.showMovie11,.showMovie12{
-    margin:10px 15px;
+    margin:10px 38px;
     padding: 0;
   }
 }
