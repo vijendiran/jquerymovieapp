@@ -196,7 +196,6 @@ h6{
 /*Mobile*/
 @media only screen and (max-width: 768px) {
   .movieList-container{
-    width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
